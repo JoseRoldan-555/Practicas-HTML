@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Carniceira La Nueva España </title>
+    </head>
+
+    <body>
+        <header>
+            <h1> Repatiendo carne desde 2000 </h1>
+        </header>
+
+        <br>
+
+        <img src="https://tse1.mm.bing.net/th?id=OIP.geUUmdoFU_3jffVceEmW9AHaEv&pid=Api&P=0" alt="Logo la gran carniceria">
+
+        <br>
+
+        <h2> Menu de cortes </h2>
+        <h3> Carnes grandes </h3>
+
+        <br>
+
+        <ul>
+            <li>Chuleta de cerdo...............................$200</li>
+            <li>Bistec...............................$170</li>
+            <li>Rusby...............................$230</li>
+            <li>Espinazo...............................$180</li>
+            <li>Chuleta ahumada...............................$200</li>
+        </ul>
+
+        <br>
+
+        <h3> Carnes pequeñas </h3>
+
+        <br>
+
+        <ul>
+            <li>Longaniza...............................$140</li>
+            <li>Chorizo...............................$100</li>
+            <li>Chicharron...............................$80</li>
+            <li>Carne enchilada...............................$200</li>
+            <li>Carne molida..............................$120</li>
+        </ul>
+
+        <br>
+
+        <h3> Ofertas especiales </h3>
+        <p>Mientras mas carne lleves a tu compra se aplicaran diversos descuentos</p>
+
+        <br>
+
+        <dl>
+            <dt>chuleta de cerdo...................$200</dt>
+            <dd>2kg de chuleta de cerdo...................$350</dd>
+            <dt>Longaniza..............................$140</dt>
+            <dd>2kg de Longaniza...................$250</dd>
+            <dt>Chicharron...................$80</dt>
+            <dd>2kg de Chicharron...................$120</dd>
+            <dt>Carne enchilada...................$200</dt>
+            <dd>2kg de Carne enchilada...................$370</dd>
+        </dl>
+
+        <h2> Ubicacion </h2>
+        <h3> Sucursales </h3>
+
+        <table>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/QgAEzBuueMdrbcVD6">s/n De los, Calz. de los Fuertes, Residencial las Fuentes, 72270 Puebla, Pue.</a></td>
+                <td>Lunes - Viernes 20h</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/WipYi4xkf48wgFTf9">72000, Calz. de los Fuertes 2806, Cívica 5 de Mayo, 72000 Puebla, Pue.</a></td>
+                <td>Lunes - Domingo 16h</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/P2ApCSVwRLcfFggX6">Calle 2 Nte 3815, Hidalgo, 72260 Puebla, Pue.</a></td>
+                <td>Sabado - Domingo 24h</td>
+            </tr>            
+        </table>
+        <br>
+        <h2>Pedidos</h2>
+        <h3>Has tu pedido aqui</h3>
+
+        <form action="">
+            <p>De que Carniceria quieres?</p>
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+
+            <p>De que Carne quieres?</p>
+            <input type="checkbox" id="Chuleta de cerdo" name="Chuleta de cerdo" value="Chuleta de cerdo">
+            <label for="Chuleta de cerdo">Chuleta</label>
+            <input type="number" id="Chuleta de cerdoNumber" name="Chuleta de cerdoNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="Longaniza" name="Longaniza" value="Longaniza">
+            <label for="Longaniza">Longaniza</label>
+            <input type="number" id="LonganizaNumber" name="LonganizaNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+            <label for="Chorizo">Chorizo</label>
+            <input type="number" id="ChorizoNumber" name="ChorizoNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="Chicharron" name="Chicharron" value="Chicharron">
+            <label for="Chicharron">Chicharron</label>
+            <input type="number" id="ChicharronNumber" name="ChicharronNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" id="Enchilada" name="Enchilada" value="Enchilada">
+            <label for="Enchilada">Carne enchilada</label>
+            <input type="number" id="EnchiladaNumber" name="EnchiladaNumber" placeholder="Cuantos?">
+            <br><br>
+
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Como te llamas?">
+            <br>
+            <label for="Direccion">Direccion</label><br>
+            <input type="text" id="Direccion" name="Direccion" placeholder="A donde lo mandamos?">
+            <br>
+            <button type="submit">Enviar pedido</button>
+            <br>
+            <br>
+        </form>
+    </body>
+    </html>

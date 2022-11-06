@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Practica 1 Launch X </title>
+    </head>
+    <body>
+        <h1>Explicacion de elementos compuestos</h1>
+
+        <label for="input1">Ejemplo de input de texto</label><br>
+        <input type="text" name="input1" id="input1">
+        <hr>
+
+        <br>
+        <!--Los diferentes tipos de inputs-->
+
+        <h1>Input de texto</h1>
+        <label for="correo1">Input de correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <label for="numero1">Input de numero</label><br>
+        <input type="number" id="numero1" name="numero1"><br><br>
+
+        <label for="password1">Input de password</label><br>
+        <input type="password" id="password1" name="password1"><br><br>
+
+        <label for="telefono1">Input de Telefono</label><br>
+        <input type="tel" id="telefono1" name="telefono1" maxlength="10"><br><br>
+
+        <label for="url1">Input de URL</label><br>
+        <input type="url" id="url1" name="url1"><br><br>
+
+        <hr>
+
+        <h1>Input de seleccion multiple</h1>
+        <input type="checkbox" id="cebolla1" name="cebolla1" value="cebolla">
+        <label for="cebolla1">Chispas de chocolate</label><br>
+        <input type="checkbox" id="cebolla1" name="cebolla1" value="cilantro">
+        <label for="cebolla1">Nuez</label><br>
+        <input type="checkbox" id="cebolla1" name="cebolla1" value="salsa">
+        <label for="cebolla1">Fresas</label><br>
+        <br>
+        <hr>
+        <h1>Input de seleccion unica</h1>
+        <input type="radio" id="roja" name="salsas" value="roja">
+        <label for="cebolla1">Roja</label><br>
+        <input type="radio" id="verde" name="salsas" value="verde">
+        <label for="cebolla1">Verde</label><br>
+        <input type="radio" id="guacamole" name="salsas" value="guacamole">
+        <label for="cebolla1">Guacamole</label><br>
+        <br>
+        <hr>
+
+        <h1>Select</h1>
+        <label for="tacos">De que la orden</label>
+        <select id="tacos" name="tacos">
+            <option name="pastor">Pastor</option>
+            <option name="suadero">Suadero</option>
+            <option name="campechana">Campechana</option>
+            <option name="Gringa">Gringa</option>
+        </select><br><br>
+
+        <h1>Select con input</h1>
+        <label for="refrescos">Elige tu refresco favorito</label><br>
+        <input list="refrescos">
+        <datalist id="refrescos">
+            <option value="Coca cola">
+                <option value="Manzana">
+                    <option value="Naranja">
+                        <option value="Mango">
+                            <option value="Guayaba">
+        </datalist>
+        <br><br>
+        <hr>
+        <h1>Input de fecha</h1>
+        <input type="date" id="fecha1" name="fecha1"><br>
+        <input type="datetime-local" id="fecha2" name="fecha2"><br>
+        <input type="week" id="fecha3" name="fecha3"><br>
+        <input type="time" id="fecha4" name="fecha1"><br>
+        <input type="month" id="fecha5" name="fecha5"><br><br><br>
+        <hr>
+        
+        <h1>Input de archivos</h1>
+        <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+        <hr>
+
+        <h1>Input de color</h1>
+        <input type="color" id="color1" name="color1"><br><br>
+        <hr>
+
+        <h1>Input de rango</h1>
+        <label for="volumen">Volumen entre 0 y 100</label><br>
+        <input type="range" id="volumen" name="volumen" min="20" max="100" value="80"><br><br>
+        <hr>
+
+        <h1>Input de boton</h1>
+        <input type="reset"><br>
+        <input type="submit"><br>
+        <input type="button" id="button1" name="button1" value="Botton 1"><br><br>
+        <hr>
+       
+        <h1>Input de formularios</h1>
+        <form action="accion.js" id="form1" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <input type="submit">
+            <input type="reset">
+            </form>
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" form="form1">
+    </body>
+    </body>
